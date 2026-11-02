@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Material de prácticas del Curso de Claude IA aplicado al sector sanitario · Hospital La Fe · DAPEN Centro de Estudios">
+<link rel="icon" href="logo-dapen.png">
+<title>Aula Claude · Hospital La Fe</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: franja de logotipos (DAPEN + La Fe) → banda pizarra con datos del curso → fichas en orden de sesión */
+:root{
+  --slate:#3f5965; --slate-deep:#2f444e; --teal:#289db9; --teal-ink:#1b7f99; --teal-soft:#e4f3f7;
+  --bg:#f3f6f7; --panel:#ffffff; --fg:#22323a; --muted:#5f7480; --line:#dbe4e8; --band-fg:#ffffff;
+  --display:"Sora", "Segoe UI", system-ui, sans-serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141c20; --panel:#1c262b; --fg:#e6eef1; --muted:#9fb3bc; --line:#2d3b42;
+  --teal-soft:#183640; --teal-ink:#289db9; --slate-deep:#24343c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141c20; --panel:#1c262b; --fg:#e6eef1; --muted:#9fb3bc; --line:#2d3b42;
+  --teal-soft:#183640; --teal-ink:#289db9; --slate-deep:#24343c; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5}
+.inner{max-width:920px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* Franja de logotipos: siempre blanca para que ambos logos se lean bien */
+.brandbar{background:#ffffff;border-bottom:3px solid var(--teal)}
+.brandbar .inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:12px}
+.brandbar img{display:block;height:76px;width:auto}
+.brandbar .lafe{height:76px}
+.brandbar .x{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#5f7480;text-align:center;line-height:1.3}
+.brandbar .x b{display:block;color:#3f5965;font-weight:600;letter-spacing:.06em}
+
+/* Banda del curso */
+.hero{background:var(--slate-deep);color:var(--band-fg);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-140px;top:-160px;width:420px;height:420px;border-radius:50%;
+  border:26px solid var(--teal);border-left-color:transparent;border-bottom-color:transparent;opacity:.35;transform:rotate(20deg);pointer-events:none}
+.hero .inner{padding-block:36px 32px;display:flex;flex-direction:column;gap:14px;position:relative;z-index:1}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#7fd0e3}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(26px,4.6vw,38px);line-height:1.15;margin:0;text-wrap:balance;max-width:20ch}
+.lead{margin:0;color:#d5e2e7;max-width:60ch}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 0;padding:0;list-style:none}
+.facts li{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:5px 14px;font-size:14px;display:flex;gap:6px}
+.facts span{color:#a9c3cc}.facts b{font-weight:600;color:#fff;font-variant-numeric:tabular-nums}
+
+main.inner{padding-block:28px 48px;display:flex;flex-direction:column;gap:30px}
+.notice{font-size:14px;padding:12px 16px;border-radius:8px;background:var(--teal-soft);border-left:4px solid var(--teal);color:var(--fg)}
+.sechead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:2px solid var(--line);padding-bottom:8px}
+h2{font-family:var(--display);font-size:18px;font-weight:600;margin:0;color:var(--slate)}
+.sechead small{color:var(--muted);font-size:14px}
+.list{display:flex;flex-direction:column;gap:14px}
+section{display:flex;flex-direction:column;gap:14px}
+
+.ficha{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;display:flex;flex-direction:column;gap:12px;
+  box-shadow:0 1px 2px rgba(31,52,62,.06)}
+.top{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.num{font-family:var(--display);font-weight:700;font-size:16px;color:#fff;background:var(--slate);
+  border-radius:8px;width:48px;height:48px;display:grid;place-items:center;font-variant-numeric:tabular-nums;flex:none}
+.pres .num{background:var(--teal-ink)}
+.info{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.info .k{font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-ink)}
+.info h3{margin:0;font-family:var(--display);font-weight:600;font-size:18px;line-height:1.3;color:var(--fg)}
+.info p{margin:0;color:var(--muted);font-size:15px}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+button,a.btn{font:inherit;font-size:14px;font-weight:600;cursor:pointer;border-radius:6px;padding:9px 14px;border:1px solid transparent;
+  display:inline-flex;align-items:center;gap:8px;white-space:nowrap;transition:background .15s, border-color .15s}
+a.btn svg{width:16px;height:16px;flex:none}
+a.btn:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+button:disabled{opacity:.55;cursor:default}
+.primary{background:var(--teal-ink);color:#fff}
+.primary:hover:not(:disabled){background:var(--slate)}
+.secondary{background:transparent;color:var(--fg);border-color:var(--line)}
+.secondary:hover:not(:disabled){border-color:var(--teal);color:var(--teal-ink)}
+.res{border-top:1px solid var(--line);padding-top:10px}
+.res summary{cursor:pointer;font-weight:600;color:var(--slate);font-size:15px}
+:root:not([data-theme="light"]) .res summary{color:var(--fg)}
+.res ul{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-direction:column}
+.res li{display:flex;align-items:center;gap:10px;padding:8px 4px;border-bottom:1px solid var(--line)}
+.res li:last-child{border-bottom:0}
+.res li:hover{background:var(--teal-soft)}
+.ext{font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:var(--muted);
+  border-radius:4px;padding:2px 6px;min-width:44px;text-align:center;flex:none}
+.ext.pdf{background:#b5473a}.ext.docx{background:#2b5797}.ext.xlsx{background:#1e7145}.ext.pptx{background:#c4532b}
+.ext.png,.ext.jpg{background:#6b5ea8}.ext.csv{background:#4f7a3a}
+.fname{flex:1;min-width:0;overflow-wrap:anywhere;font-size:15px}
+.size{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.link{background:none;border:0;color:var(--teal-ink);padding:4px 6px}
+.link:hover:not(:disabled){text-decoration:underline}
+.status{font-size:13px;min-height:1.2em;color:var(--muted)}
+.status:empty{display:none}
+
+footer{background:var(--slate-deep);color:#c9d8de;font-size:14px}
+footer .inner{padding-block:22px;display:flex;flex-wrap:wrap;gap:8px 24px;align-items:center;justify-content:space-between}
+footer b{color:#fff;font-family:var(--display);font-weight:600}
+footer .note{flex-basis:100%;font-size:13px;color:#9fb6bf}
+@media (max-width:560px){
+  .brandbar img{height:46px}.brandbar .lafe{height:42px}.brandbar .x{display:none}
+  .top{align-items:flex-start}.actions{width:100%}.actions a.btn{flex:1;justify-content:center}
+  .hero::after{width:260px;height:260px;right:-120px;top:-120px;border-width:18px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+a.btn{text-decoration:none}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+
+<div class="brandbar"><div class="inner">
+  <img src="logo-dapen.png" alt="DAPEN Centro de Estudios">
+  <div class="x">Formación para<b>Hospital La Fe</b></div>
+  <img class="lafe" src="logo-lafe.png" alt="La Fe · Departament de Salut">
+</div></div>
+
+<div class="hero"><div class="inner">
+  <div class="eyebrow">Aula del curso · Material de prácticas</div>
+  <h1>Curso de Claude IA aplicado al sector sanitario</h1>
+  <p class="lead">Descarga aquí las fichas de cada sesión y los archivos de trabajo de los ejercicios. El material se amplía a medida que avanza el curso.</p>
+  <ul class="facts">
+    <li><span>Duración</span><b>20 horas</b></li>
+    <li><span>Modalidad</span><b>Presencial</b></li>
+    <li><span>Fichas</span><b id="stat-fichas">—</b></li>
+    <li><span>Archivos de práctica</span><b id="stat-rec">—</b></li>
+    <li><span>Formador</span><b>Daniel Peña Becerra</b></li>
+  </ul>
+</div></div>
+
+<main class="inner">
+  
+  <section aria-labelledby="h-pres">
+    <div class="sechead"><h2 id="h-pres">Presentación del curso</h2></div>
+    <div id="pres" class="list"></div>
+  </section>
+
+  <section aria-labelledby="h-fichas">
+    <div class="sechead"><h2 id="h-fichas">Fichas de prácticas</h2><small>Cada ficha incluye los ejercicios paso a paso</small></div>
+    <div class="list" id="fichas"></div>
+  </section>
+</main>
+
+<footer><div class="inner">
+  <b>DAPEN Centro de Estudios</b>
+  <span>Valencia · www.grupodapen.es · daniel@grupodapen.es</span>
+  <span class="note">Los datos de los archivos de prácticas son simulados o ficticios y no contienen información de pacientes.</span>
+</div></footer>
+
+<script>
+const PRESENTACION = {
+  titulo:"Claude IA aplicado al sector sanitario",
+  desc:"Presentación del curso: objetivos, contenidos y forma de trabajo.",
+  path:"archivos/presentacion-curso.pdf",
+  nombre:"Claude IA aplicado al sector sanitario - Presentacion.pdf", size:6580233
+};
+
+const FICHAS = [
+  {n:1, titulo:"Configuración de Claude", desc:"Tu perfil, tu privacidad y tu memoria.",
+   pdf:{path:"archivos/ficha-01.pdf", nombre:"Ficha 01 - Configuracion de Claude (Hospital La Fe).pdf", size:124709}},
+  {n:2, titulo:"Comunicación eficaz con Claude", desc:"Método DAPEN+R, prompt de entrevista y prompts parametrizados.",
+   pdf:{path:"archivos/ficha-02.pdf", nombre:"Ficha 02 - Comunicacion eficaz con Claude (Hospital La Fe).pdf", size:110200},
+   zip:{path:"archivos/recursos-ficha-02.zip", nombre:"Recursos Ficha 02.zip", size:77596},
+   recursos:[
+    ["archivos/r02/f02-1.docx","Acta_reunion_servicio_octubre_2026 (simulada).docx",37165],
+    ["archivos/r02/f02-2.xlsx","Actividad_Medicina_Interna_T3_2026 (simulado).xlsx",6093],
+    ["archivos/r02/f02-3.pdf","Articulo_planificacion_alta (ficticio).pdf",3634],
+    ["archivos/r02/f02-4.docx","Comunicado_interno_modelo (simulado).docx",36911]]},
+  {n:3, titulo:"Trabajar con archivos e imágenes", desc:"Leer, analizar, comparar y crear archivos con Claude.",
+   pdf:{path:"archivos/ficha-03.pdf", nombre:"Ficha 03 - Trabajar con archivos e imagenes (Hospital La Fe).pdf", size:129415},
+   zip:{path:"archivos/recursos-ficha-03.zip", nombre:"Recursos Ficha 03.zip", size:395107},
+   recursos:[
+    ["archivos/r03/f03-1.docx","Acta_reunion_servicio_octubre_2026 (simulada).docx",37165],
+    ["archivos/r03/f03-2.png","Captura_error_gestor_documental (simulada).png",40250],
+    ["archivos/r03/f03-3.csv","Exportacion_pedidos_material_septiembre (simulado).csv",829],
+    ["archivos/r03/f03-4.jpg","Factura_escaneada (simulada).jpg",154602],
+    ["archivos/r03/f03-5.png","Grafico_reingresos_2026 (simulado).png",83704],
+    ["archivos/r03/f03-6.pdf","Oferta_A_Ofimatica_Levante (ficticia).pdf",2670],
+    ["archivos/r03/f03-7.pdf","Oferta_B_Impresion_Global (ficticia).pdf",2669],
+    ["archivos/r03/f03-8.pdf","Oferta_C_TecnoPrint (ficticia).pdf",2711],
+    ["archivos/r03/f03-9.pptx","Presentacion_resultados_servicio_2026 (simulada).pptx",34338],
+    ["archivos/r03/f03-10.xlsx","Presupuesto_y_gasto_servicio_2026 (simulado).xlsx",5913],
+    ["archivos/r03/f03-11.docx","Protocolo_alta_v2025 (simulado).docx",36981],
+    ["archivos/r03/f03-12.docx","Protocolo_alta_v2026 (simulado).docx",37189],
+    ["archivos/r03/f03-13.xlsx","Seguimiento_acuerdos_servicio (simulado).xlsx",5631]]},
+  {n:4, titulo:"Búsqueda web e investigación", desc:"Información actualizada, con fuentes y bien comprobada.",
+   pdf:{path:"archivos/ficha-04.pdf", nombre:"Ficha 04 - Busqueda web e investigacion (Hospital La Fe).pdf", size:136624}},
+  {n:5, titulo:"Gráficos y diagramas", desc:"Ver los datos y los procesos de un vistazo.",
+   pdf:{path:"archivos/ficha-05.pdf", nombre:"Ficha 05 - Graficos y diagramas (Hospital La Fe).pdf", size:79269},
+   zip:{path:"archivos/recursos-ficha-05.zip", nombre:"Recursos Ficha 05.zip", size:42824},
+   recursos:[
+    ["archivos/r05/f05-1.xlsx","Datos_graficos_servicio_2026 (simulado).xlsx",8611],
+    ["archivos/r05/f05-2.docx","Protocolo_alta_v2026 (simulado).docx",37189]]}
+];
+
+const fmt = b => b >= 1048576 ? (b/1048576).toFixed(1).replace(".",",")+" MB" : Math.max(1,Math.round(b/1024))+" KB";
+const el = (tag, cls, text) => { const e=document.createElement(tag); if(cls) e.className=cls; if(text!=null) e.textContent=text; return e; };
+
+const ICON='<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M3 13h10"/></svg>';
+function boton(text, cls, file, statusEl){
+  const b = el("a", "btn "+cls); b.href = encodeURI(file.path); b.setAttribute("download", file.nombre);
+  b.innerHTML = cls==="link" ? "" : ICON; b.append(text); return b;
+}
+
+function tarjeta({num, titulo, desc, pdf, zip, recursos}){
+  const card = el("article","ficha"+(num==="P"?" pres":""));
+  const top = el("div","top");
+  const status = el("div","status"); status.setAttribute("aria-live","polite");
+  top.append(el("div","num", num));
+  const info = el("div","info"); info.append(el("span","k", num==="P"?"Presentación":"Ficha "+num), el("h3",null,titulo), el("p",null,desc)); top.append(info);
+  const acts = el("div","actions");
+  acts.append(boton((num==="P"?"Presentación en PDF · ":"Ficha en PDF · ")+fmt(pdf.size),"primary",pdf,status));
+  if(zip) acts.append(boton("Todos los recursos (ZIP) · "+fmt(zip.size),"secondary",zip,status));
+  top.append(acts); card.append(top);
+  if(recursos && recursos.length){
+    const det = el("details","res");
+    det.append(el("summary",null,"Archivos para la práctica ("+recursos.length+")"));
+    const ul = el("ul");
+    recursos.forEach(([path,nombre,size])=>{
+      const li = el("li");
+      const ex=nombre.split(".").pop().toLowerCase(); li.append(el("span","ext "+ex,ex), el("span","fname",nombre), el("span","size",fmt(size)),
+        boton("Descargar","link",{path,nombre,size},status));
+      ul.append(li);
+    });
+    det.append(ul); card.append(det);
+  }
+  card.append(status);
+  return card;
+}
+
+const nRec = FICHAS.reduce((a,f)=>a+(f.recursos?f.recursos.length:0),0);
+document.getElementById("stat-fichas").textContent = FICHAS.length;
+document.getElementById("stat-rec").textContent = nRec;
+document.getElementById("pres").append(tarjeta({num:"P", titulo:PRESENTACION.titulo, desc:PRESENTACION.desc, pdf:PRESENTACION}));
+const cont = document.getElementById("fichas");
+FICHAS.forEach(f => cont.append(tarjeta({num:String(f.n).padStart(2,"0"), titulo:f.titulo, desc:f.desc, pdf:f.pdf, zip:f.zip, recursos:f.recursos})));
+
+</script>
+</body>
+</html>
