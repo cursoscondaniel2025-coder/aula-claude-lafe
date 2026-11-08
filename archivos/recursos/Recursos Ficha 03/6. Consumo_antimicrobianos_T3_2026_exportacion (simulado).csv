@@ -1,0 +1,159 @@
+﻿Mes;Servicio;Antimicrobiano;Familia;DDD;Estancias
+2026-07;Medicina Interna;Meropenem;Carbapenémicos;105,4;2838
+jul-26;Medicina Interna;Piperacilina-tazobactam;Penicilinas + inhibidor;158,3;2838
+2026-07;MEDICINA INTERNA;Ceftriaxona;Cefalosporinas 3.ª gen.;202,5;2838
+2026-07;Medicina Interna;Amoxicilina-clavulánico;Penicilinas + inhibidor;327,7;2838
+2026-07;Medicina Interna;Levofloxacino;Quinolonas;151,2;2838
+2026-07;Medicina Interna;Vancomicina;Glucopéptidos;80,7;2838
+jul-26;Medicina Interna;Linezolid;Oxazolidinonas;34,8;2838
+jul-26;Oncología;meropenem;Carbapenémicos;88,5;1132
+2026-07;Oncología;Piperacilina-tazobactam;Penicilinas + inhibidor;111,3;1132
+jul-26;Oncología;Ceftriaxona;Cefalosporinas 3.ª gen.;161,9;1132
+jul-26;Oncología;Amoxicilina-clavulánico;Penicilinas + inhibidor;184,8;1132
+2026-07;Oncología;Levofloxacino;Quinolonas;74,2;1132
+jul-26;Oncología;Vancomicina;Glucopéptidos;51,6;1132
+jul-26;Oncología;Vancomicina;Glucopéptidos;51,6;1132
+jul-26;Oncología;linezolid;Oxazolidinonas;26,9;1132
+jul-26;NEFROLOGÍA;Meropenem;Carbapenémicos;44,1;732
+jul-26;Nefrología;Piperacilina-tazobactam;Penicilinas + inhibidor;58;732
+jul-26;NEFROLOGÍA;Ceftriaxona;Cefalosporinas 3.ª gen.;67;732
+jul-26;Nefrología;Amoxicilina-clavulánico;Penicilinas + inhibidor;77;732
+jul-26;Nefrología;Levofloxacino;Quinolonas;31,4;732
+jul-26;Nefrología;Vancomicina;Glucopéptidos;26,3;732
+jul-26;Nefrología;LINEZOLID;Oxazolidinonas;13,1;732
+jul-26;Nefrología;LINEZOLID;Oxazolidinonas;13,1;732
+2026-07;Aparato Digestivo;Meropenem;Carbapenémicos;28,9;916
+jul-26;APARATO DIGESTIVO;Piperacilina-tazobactam;Penicilinas + inhibidor;54,8;916
+2026-07;Aparato Digestivo;Ceftriaxona;Cefalosporinas 3.ª gen.;72,3;916
+jul-26;Aparato Digestivo;Amoxicilina-clavulánico;Penicilinas + inhibidor;116,9;916
+2026-07;Aparato Digestivo;Levofloxacino;Quinolonas;45;916
+2026-07;Aparato Digestivo;Vancomicina;Glucopéptidos;20,7;916
+2026-07;Aparato Digestivo;Linezolid;Oxazolidinonas;12,9;916
+2026-07;Neurocirugía;Meropenem;Carbapenémicos;24;633
+jul-26;Neurocirugía;Piperacilina-tazobactam;Penicilinas + inhibidor;35,7;633
+jul-26;Neurocirugía;Ceftriaxona;Cefalosporinas 3.ª gen.;44,6;633
+jul-26;Neurocirugía;Ceftriaxona;Cefalosporinas 3.ª gen.;44,6;633
+2026-07;Neurocirugía;Amoxicilina-clavulánico;Penicilinas + inhibidor;57,5;633
+jul-26;Neurocirugía;Levofloxacino;Quinolonas;24,1;633
+jul-26;Neurocirugía;Vancomicina;Glucopéptidos;14;633
+jul-26;Neurocirugía;Vancomicina;Glucopéptidos;14;633
+2026-07;NEUROCIRUGÍA;Linezolid;Oxazolidinonas;6,1;633
+jul-26;UCI;Meropenem;Carbapenémicos;85,2;776
+;;;;;
+jul-26;UCI;PIPERACILINA-TAZOBACTAM;Penicilinas + inhibidor;139,4;776
+jul-26;UCI;ceftriaxona;Cefalosporinas 3.ª gen.;164,5;776
+jul-26;UCI;Amoxicilina-clavulánico;Penicilinas + inhibidor;239,5;776
+2026-07;UCI;Levofloxacino;Quinolonas;123,6;776
+jul-26;UCI;Vancomicina;Glucopéptidos;73,1;776
+jul-26;UCI;Linezolid;Oxazolidinonas;35,8;776
+jul-26;Cirugía General;meropenem;Carbapenémicos;49,7;1401
+2026-07;Cirugía General;Piperacilina-tazobactam;Penicilinas + inhibidor;71,8;1401
+2026-07;Cirugía General;Ceftriaxona;Cefalosporinas 3.ª gen.;124,2;1401
+2026-07;Cirugía General;Amoxicilina-clavulánico;Penicilinas + inhibidor;142,4;1401
+jul-26;Cirugía General;levofloxacino;Quinolonas;58,7;1401
+jul-26;CIRUGÍA GENERAL;Vancomicina;Glucopéptidos;43,5;1401
+jul-26;Cirugía General;Linezolid;Oxazolidinonas;14,3;1401
+ago-26;Medicina Interna;Meropenem;Carbapenémicos;159,5;2953
+ago-26;Medicina Interna;Piperacilina-tazobactam;Penicilinas + inhibidor;190,6;2953
+2026-08;Medicina Interna;Ceftriaxona;Cefalosporinas 3.ª gen.;251;2953
+ago-26;MEDICINA INTERNA;Amoxicilina-clavulánico;Penicilinas + inhibidor;297,4;2953
+ago-26;Medicina Interna;Levofloxacino;Quinolonas;180,6;2953
+2026-08;Medicina Interna;Vancomicina;Glucopéptidos;108,4;2953
+ago-26;Medicina Interna;Linezolid;Oxazolidinonas;33,8;2953
+ago-26;Oncología;Meropenem;Carbapenémicos;87;1108
+2026-08;ONCOLOGÍA;Piperacilina-tazobactam;Penicilinas + inhibidor;96,3;1108
+ago-26;Oncología;Ceftriaxona;Cefalosporinas 3.ª gen.;184,8;1108
+2026-08;Oncología;Amoxicilina-clavulánico;Penicilinas + inhibidor;163,5;1108
+ago-26;Oncología;Levofloxacino;Quinolonas;71,1;1108
+ago-26;Oncología;Vancomicina;Glucopéptidos;56,4;1108
+ago-26;Oncología;Linezolid;Oxazolidinonas;20,3;1108
+ago-26;Nefrología;Meropenem;Carbapenémicos;43,8;764
+ago-26;Nefrología;Piperacilina-tazobactam;Penicilinas + inhibidor;48,6;764
+2026-08;Nefrología;Ceftriaxona;Cefalosporinas 3.ª gen.;79,7;764
+ago-26;NEFROLOGÍA;Amoxicilina-clavulánico;Penicilinas + inhibidor;99,5;764
+ago-26;Nefrología;Levofloxacino;Quinolonas;45,9;764
+2026-08;Nefrología;Vancomicina;Glucopéptidos;20,2;764
+ago-26;NEFROLOGÍA;LINEZOLID;Oxazolidinonas;9,7;764
+ago-26;Aparato Digestivo;Meropenem;Carbapenémicos;32,1;1015
+ago-26;Aparato Digestivo;Meropenem;Carbapenémicos;32,1;1015
+ago-26;Aparato Digestivo;Piperacilina-tazobactam;Penicilinas + inhibidor;54,3;1015
+ago-26;Aparato Digestivo;Ceftriaxona;Cefalosporinas 3.ª gen.;81,3;1015
+ago-26;Aparato Digestivo;Amoxicilina-clavulánico;Penicilinas + inhibidor;130,2;1015
+ago-26;Aparato Digestivo;Levofloxacino;Quinolonas;38,9;1015
+ago-26;APARATO DIGESTIVO;Vancomicina;Glucopéptidos;26,6;1015
+2026-08;Aparato Digestivo;Linezolid;Oxazolidinonas;14,9;1015
+2026-08;Neurocirugía;Meropenem;Carbapenémicos;21,6;642
+ago-26;Neurocirugía;Piperacilina-tazobactam;Penicilinas + inhibidor;30,9;642
+2026-08;Neurocirugía;Ceftriaxona;Cefalosporinas 3.ª gen.;38,4;642
+ago-26;Neurocirugía;Amoxicilina-clavulánico;Penicilinas + inhibidor;59,5;642
+2026-08;Neurocirugía;LEVOFLOXACINO;Quinolonas;23,8;642
+ago-26;Neurocirugía;Vancomicina;Glucopéptidos;15,1;642
+2026-08;Neurocirugía;Linezolid;Oxazolidinonas;8,2;642
+2026-08;UCI;Meropenem;Carbapenémicos;86,2;852
+ago-26;UCI;Piperacilina-tazobactam;Penicilinas + inhibidor;119,4;852
+ago-26;UCI;Ceftriaxona;Cefalosporinas 3.ª gen.;231,2;852
+ago-26;UCI;amoxicilina-clavulánico;Penicilinas + inhibidor;233,7;852
+ago-26;UCI;Levofloxacino;Quinolonas;101,2;852
+2026-08;UCI;Vancomicina;Glucopéptidos;79,6;852
+2026-08;UCI;Linezolid;Oxazolidinonas;38,2;852
+ago-26;Cirugía General;Meropenem;Carbapenémicos;36,5;1263
+ago-26;Cirugía General;piperacilina-tazobactam;Penicilinas + inhibidor;66,4;1263
+2026-08;Cirugía General;Ceftriaxona;Cefalosporinas 3.ª gen.;77,8;1263
+2026-08;Cirugía General;Amoxicilina-clavulánico;Penicilinas + inhibidor;116,7;1263
+;;;;;
+2026-08;Cirugía General;LEVOFLOXACINO;Quinolonas;53,7;1263
+ago-26;Cirugía General;vancomicina;Glucopéptidos;24,7;1263
+2026-08;Cirugía General;LINEZOLID;Oxazolidinonas;16,2;1263
+sep-26;Medicina Interna;Meropenem;Carbapenémicos;143,8;2963
+sep-26;Medicina Interna;Piperacilina-tazobactam;Penicilinas + inhibidor;187,5;2963
+2026-09;Medicina Interna;Ceftriaxona;Cefalosporinas 3.ª gen.;317,6;2963
+2026-09;MEDICINA INTERNA;Amoxicilina-clavulánico;Penicilinas + inhibidor;328,5;2963
+2026-09;MEDICINA INTERNA;Levofloxacino;Quinolonas;166;2963
+sep-26;Medicina Interna;Vancomicina;Glucopéptidos;96,2;2963
+sep-26;Medicina Interna;Vancomicina;Glucopéptidos;96,2;2963
+2026-09;Medicina Interna;LINEZOLID;Oxazolidinonas;39,6;2963
+sep-26;Oncología;Meropenem;Carbapenémicos;72,8;1109
+2026-09;Oncología;PIPERACILINA-TAZOBACTAM;Penicilinas + inhibidor;119,2;1109
+sep-26;Oncología;Ceftriaxona;Cefalosporinas 3.ª gen.;112,4;1109
+2026-09;Oncología;Amoxicilina-clavulánico;Penicilinas + inhibidor;215,2;1109
+2026-09;Oncología;Levofloxacino;Quinolonas;66,1;1109
+2026-09;Oncología;Vancomicina;Glucopéptidos;44,9;1109
+sep-26;Oncología;Linezolid;Oxazolidinonas;25,3;1109
+sep-26;Nefrología;Meropenem;Carbapenémicos;40,3;776
+sep-26;Nefrología;Meropenem;Carbapenémicos;40,3;776
+sep-26;Nefrología;Piperacilina-tazobactam;Penicilinas + inhibidor;49,3;776
+sep-26;Nefrología;Ceftriaxona;Cefalosporinas 3.ª gen.;89,3;776
+2026-09;Nefrología;Amoxicilina-clavulánico;Penicilinas + inhibidor;114,4;776
+2026-09;Nefrología;Levofloxacino;Quinolonas;48,1;776
+sep-26;Nefrología;Vancomicina;Glucopéptidos;26,7;776
+2026-09;Nefrología;Linezolid;Oxazolidinonas;13,7;776
+2026-09;Nefrología;Linezolid;Oxazolidinonas;13,7;776
+2026-09;Aparato Digestivo;Meropenem;Carbapenémicos;38,9;1023
+sep-26;Aparato Digestivo;Piperacilina-tazobactam;Penicilinas + inhibidor;68,5;1023
+sep-26;APARATO DIGESTIVO;ceftriaxona;Cefalosporinas 3.ª gen.;81,1;1023
+sep-26;Aparato Digestivo;Amoxicilina-clavulánico;Penicilinas + inhibidor;111,9;1023
+sep-26;Aparato Digestivo;Levofloxacino;Quinolonas;36,2;1023
+sep-26;Aparato Digestivo;Vancomicina;Glucopéptidos;23,9;1023
+sep-26;Aparato Digestivo;Linezolid;Oxazolidinonas;13;1023
+2026-09;Neurocirugía;meropenem;Carbapenémicos;22,7;592
+sep-26;Neurocirugía;Piperacilina-tazobactam;Penicilinas + inhibidor;35,7;592
+sep-26;NEUROCIRUGÍA;CEFTRIAXONA;Cefalosporinas 3.ª gen.;32,2;592
+sep-26;Neurocirugía;Amoxicilina-clavulánico;Penicilinas + inhibidor;48,8;592
+2026-09;Neurocirugía;Levofloxacino;Quinolonas;23,3;592
+2026-09;Neurocirugía;Vancomicina;Glucopéptidos;14,6;592
+sep-26;Neurocirugía;Linezolid;Oxazolidinonas;5,4;592
+2026-09;UCI;Meropenem;Carbapenémicos;83;802
+2026-09;UCI;Meropenem;Carbapenémicos;83;802
+sep-26;UCI;Piperacilina-tazobactam;Penicilinas + inhibidor;119,8;802
+2026-09;UCI;Ceftriaxona;Cefalosporinas 3.ª gen.;217,7;802
+sep-26;UCI;Amoxicilina-clavulánico;Penicilinas + inhibidor;216,6;802
+sep-26;UCI;Levofloxacino;Quinolonas;86,5;802
+sep-26;UCI;VANCOMICINA;Glucopéptidos;56,4;802
+sep-26;UCI;LINEZOLID;Oxazolidinonas;36,6;802
+sep-26;Cirugía General;Meropenem;Carbapenémicos;59,4;1404
+sep-26;CIRUGÍA GENERAL;Piperacilina-tazobactam;Penicilinas + inhibidor;65,4;1404
+2026-09;Cirugía General;Ceftriaxona;Cefalosporinas 3.ª gen.;130,3;1404
+sep-26;Cirugía General;Amoxicilina-clavulánico;Penicilinas + inhibidor;111,1;1404
+sep-26;Cirugía General;Levofloxacino;Quinolonas;52,2;1404
+sep-26;Cirugía General;Vancomicina;Glucopéptidos;40,7;1404
+sep-26;Cirugía General;Linezolid;Oxazolidinonas;20,7;1404

@@ -1,0 +1,22 @@
+﻿Mes;Servicio;Antimicrobiano;Familia;DDD;Estancias
+Julio;UCI;Meropenem;Carbapenémicos;97,8;765
+Julio;UCI;Piperacilina-tazobactam;Penicilinas + inhibidor;118,7;765
+Julio;UCI;Ceftriaxona;Cefalosporinas 3.ª gen.;189,3;765
+Julio;UCI;Amoxicilina-clavulánico;Penicilinas + inhibidor;202,1;765
+Julio;UCI;Levofloxacino;Quinolonas;96,3;765
+Julio;UCI;Vancomicina;Glucopéptidos;52,8;765
+Julio;UCI;Linezolid;Oxazolidinonas;27,1;765
+Agosto;UCI;Meropenem;Carbapenémicos;111,1;847
+Agosto;UCI;Piperacilina-tazobactam;Penicilinas + inhibidor;142,1;847
+Agosto;UCI;Ceftriaxona;Cefalosporinas 3.ª gen.;228,7;847
+Agosto;UCI;Amoxicilina-clavulánico;Penicilinas + inhibidor;233,7;847
+Agosto;UCI;Levofloxacino;Quinolonas;105,5;847
+Agosto;UCI;Vancomicina;Glucopéptidos;75,4;847
+Agosto;UCI;Linezolid;Oxazolidinonas;34,9;847
+Septiembre;UCI;Meropenem;Carbapenémicos;105,6;755
+Septiembre;UCI;Piperacilina-tazobactam;Penicilinas + inhibidor;121,6;755
+Septiembre;UCI;Ceftriaxona;Cefalosporinas 3.ª gen.;159,6;755
+Septiembre;UCI;Amoxicilina-clavulánico;Penicilinas + inhibidor;261,3;755
+Septiembre;UCI;Levofloxacino;Quinolonas;91,4;755
+Septiembre;UCI;Vancomicina;Glucopéptidos;54,1;755
+Septiembre;UCI;Linezolid;Oxazolidinonas;24,4;755

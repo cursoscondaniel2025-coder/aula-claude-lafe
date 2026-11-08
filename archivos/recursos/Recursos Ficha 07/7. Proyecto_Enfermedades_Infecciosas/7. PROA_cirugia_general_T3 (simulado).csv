@@ -1,0 +1,22 @@
+﻿Mes;Servicio;Antimicrobiano;Familia;DDD;Estancias
+Julio;Cirugía General;Meropenem;Carbapenémicos;49,7;1257
+Julio;Cirugía General;Piperacilina-tazobactam;Penicilinas + inhibidor;67,1;1257
+Julio;Cirugía General;Ceftriaxona;Cefalosporinas 3.ª gen.;100,1;1257
+Julio;Cirugía General;Amoxicilina-clavulánico;Penicilinas + inhibidor;121,6;1257
+Julio;Cirugía General;Levofloxacino;Quinolonas;52,4;1257
+Julio;Cirugía General;Vancomicina;Glucopéptidos;37,9;1257
+Julio;Cirugía General;Linezolid;Oxazolidinonas;15,9;1257
+Agosto;Cirugía General;Meropenem;Carbapenémicos;58,9;1342
+Agosto;Cirugía General;Piperacilina-tazobactam;Penicilinas + inhibidor;69,7;1342
+Agosto;Cirugía General;Ceftriaxona;Cefalosporinas 3.ª gen.;88,5;1342
+Agosto;Cirugía General;Amoxicilina-clavulánico;Penicilinas + inhibidor;159,2;1342
+Agosto;Cirugía General;Levofloxacino;Quinolonas;64,3;1342
+Agosto;Cirugía General;Vancomicina;Glucopéptidos;30,8;1342
+Agosto;Cirugía General;Linezolid;Oxazolidinonas;15,0;1342
+Septiembre;Cirugía General;Meropenem;Carbapenémicos;61,7;1371
+Septiembre;Cirugía General;Piperacilina-tazobactam;Penicilinas + inhibidor;71,7;1371
+Septiembre;Cirugía General;Ceftriaxona;Cefalosporinas 3.ª gen.;123,8;1371
+Septiembre;Cirugía General;Amoxicilina-clavulánico;Penicilinas + inhibidor;161,2;1371
+Septiembre;Cirugía General;Levofloxacino;Quinolonas;60,7;1371
+Septiembre;Cirugía General;Vancomicina;Glucopéptidos;33,9;1371
+Septiembre;Cirugía General;Linezolid;Oxazolidinonas;14,7;1371
