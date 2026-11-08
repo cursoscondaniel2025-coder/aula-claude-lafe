@@ -1,0 +1,12 @@
+DATOS PRÁCTICOS DEL HOSPITAL DE DÍA ONCOLÓGICO (simulados para formación)
+
+Horario: de lunes a viernes, de 8:00 a 20:00.
+Ubicación: edificio de consultas externas, planta 2 (ficticia).
+Llegada: 15 minutos antes de la cita, con la tarjeta sanitaria.
+Análisis previos: el día anterior o la misma mañana, según la hoja de cita.
+Duración: de 1 a 6 horas según el tratamiento.
+Qué traer: lista de medicación habitual, algo de comer, ropa cómoda, un libro o auriculares.
+Acompañante: se permite un acompañante por paciente.
+Teléfono de enfermería del hospital de día: 96 000 00 01 (ficticio), de 8:00 a 20:00.
+Fuera de ese horario: acudir a Urgencias e indicar que está en tratamiento oncológico.
+Transporte sanitario: se solicita en la secretaría con 48 horas de antelación.
