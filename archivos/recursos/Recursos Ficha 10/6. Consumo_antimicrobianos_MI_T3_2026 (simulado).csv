@@ -1,0 +1,22 @@
+﻿Mes,Servicio,Antimicrobiano,Familia,DDD,Estancias
+Julio,Medicina Interna,Meropenem,Carbapenémicos,133.0,2887
+Julio,Medicina Interna,Piperacilina-tazobactam,Penicilinas + inhibidor,236.4,2887
+Julio,Medicina Interna,Ceftriaxona,Cefalosporinas 3.ª gen.,256.3,2887
+Julio,Medicina Interna,Amoxicilina-clavulánico,Penicilinas + inhibidor,347.5,2887
+Julio,Medicina Interna,Levofloxacino,Quinolonas,149.4,2887
+Julio,Medicina Interna,Vancomicina,Glucopéptidos,75.7,2887
+Julio,Medicina Interna,Linezolid,Oxazolidinonas,43.5,2887
+Agosto,Medicina Interna,Meropenem,Carbapenémicos,148.6,2955
+Agosto,Medicina Interna,Piperacilina-tazobactam,Penicilinas + inhibidor,173.3,2955
+Agosto,Medicina Interna,Ceftriaxona,Cefalosporinas 3.ª gen.,245.0,2955
+Agosto,Medicina Interna,Amoxicilina-clavulánico,Penicilinas + inhibidor,296.5,2955
+Agosto,Medicina Interna,Levofloxacino,Quinolonas,166.0,2955
+Agosto,Medicina Interna,Vancomicina,Glucopéptidos,95.5,2955
+Agosto,Medicina Interna,Linezolid,Oxazolidinonas,36.2,2955
+Septiembre,Medicina Interna,Meropenem,Carbapenémicos,164.9,3090
+Septiembre,Medicina Interna,Piperacilina-tazobactam,Penicilinas + inhibidor,229.6,3090
+Septiembre,Medicina Interna,Ceftriaxona,Cefalosporinas 3.ª gen.,291.0,3090
+Septiembre,Medicina Interna,Amoxicilina-clavulánico,Penicilinas + inhibidor,320.0,3090
+Septiembre,Medicina Interna,Levofloxacino,Quinolonas,124.5,3090
+Septiembre,Medicina Interna,Vancomicina,Glucopéptidos,93.8,3090
+Septiembre,Medicina Interna,Linezolid,Oxazolidinonas,38.2,3090
