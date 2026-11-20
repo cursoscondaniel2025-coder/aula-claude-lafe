@@ -1,0 +1,11 @@
+Guarda aquí las 8 imágenes creadas con ChatGPT, con estos nombres:
+01_portada_consulta.png
+02_preparar_consulta.png
+03_identificacion_paciente.png
+04_intimidad.png
+05_escuchar_explicar.png
+06_decisiones_compartidas.png
+07_registro.png
+08_despedida.png
+
+Los prompts están en la carpeta «4. Prompts_imagenes_ChatGPT».
