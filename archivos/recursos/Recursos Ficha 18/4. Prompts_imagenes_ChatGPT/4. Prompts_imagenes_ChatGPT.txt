@@ -1,0 +1,28 @@
+ESTILO COMÚN (pégalo una vez al principio)
+
+Voy a pedirte 8 imágenes para una web sobre un protocolo de atención al paciente en un hospital. Usa siempre este estilo. Estilo: ilustración plana y profesional, tipo vectorial, colores principales verde (#0E6E63) y naranja (#C0531F) sobre fondo claro, luz suave. Personas diversas e inventadas, que no se parezcan a nadie real. Sin texto, sin letras, sin logotipos y sin datos legibles en pantallas, papeles o pulseras. Formato horizontal 16:9.
+
+--- 01_portada_consulta.png (Portada de la web)
+Crea una imagen: Una médica recibe con una sonrisa a un paciente adulto en la puerta de una consulta de hospital luminosa y ordenada. Mismo estilo que las anteriores.
+
+--- 02_preparar_consulta.png (1. Antes de que entre el paciente)
+Crea una imagen: Un médico prepara su consulta antes de empezar: mesa ordenada, ordenador encendido y un dispensador de gel hidroalcohólico en primer plano mientras se frota las manos. Mismo estilo que las anteriores.
+
+--- 03_identificacion_paciente.png (2. Recibe e identifica al paciente)
+Crea una imagen: Un médico se presenta a una paciente en la sala de espera y le pregunta su nombre; la paciente responde mientras sostiene su tarjeta sanitaria, sin datos legibles. Mismo estilo que las anteriores.
+
+--- 04_intimidad.png (3. Protege su intimidad)
+Crea una imagen: Consulta médica con la puerta cerrada y una cortina corrida junto a la camilla; ambiente tranquilo y privado. Mismo estilo que las anteriores.
+
+--- 05_escuchar_explicar.png (4. Escucha y explica)
+Crea una imagen: Un médico sentado frente a un paciente mayor, inclinado hacia él y escuchando con atención; sobre la mesa, un esquema sencillo dibujado en un papel. Mismo estilo que las anteriores.
+
+--- 06_decisiones_compartidas.png (6. Plan y decisiones compartidas)
+Crea una imagen: Una médica y una paciente miran juntas una hoja con dos opciones representadas con iconos sencillos y la paciente asiente. Mismo estilo que las anteriores.
+
+--- 07_registro.png (7. Registro)
+Crea una imagen: Un médico escribe en el ordenador de la consulta al terminar; la pantalla se ve de lado, sin texto legible. Mismo estilo que las anteriores.
+
+--- 08_despedida.png (8. Despedida)
+Crea una imagen: Un médico se despide de un paciente en la puerta y le entrega una hoja con sus próximas citas; el paciente sonríe. Mismo estilo que las anteriores.
+
